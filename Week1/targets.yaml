@@ -1,0 +1,7 @@
+EGFRvIII:
+  gene: EGFR
+  isoform: EGFRvIII
+  disease: Glioblastoma, HNSCC
+  drug_escape: ["Cetuximab", "Panitumumab"]
+  drug_template_pdb: 1YY9
+  isoform_structure_pdb: ["8UKX", "8UKW"]
