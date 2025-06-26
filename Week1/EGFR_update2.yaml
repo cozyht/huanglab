@@ -1,0 +1,55 @@
+EGFRvIII:
+  gene: EGFR
+  isoform: EGFRvIII
+  disease: Glioblastoma, HNSCC
+  drug_escape: ["Cetuximab", "Panitumumab"]
+  drug_template_pdb: 1YY9
+  isoform_structure_pdb: ["8UKX", "8UKW"]
+
+EGFR_Ex19del:
+  gene: EGFR
+  isoform: Ex19del
+  disease: NSCLC
+  drug_escape: []
+  drug_template_pdb: 2ITY
+  isoform_structure_pdb: []
+
+EGFR_L858R:
+  gene: EGFR
+  isoform: L858R
+  disease: NSCLC
+  drug_escape: ["Erlotinib (partial)", "Gefitinib (partial)"]
+  drug_template_pdb: 2ITY
+  isoform_structure_pdb: ["2ITZ", "2EB3", "4LQM"]
+
+EGFR_T790M:
+  gene: EGFR
+  isoform: T790M
+  disease: NSCLC
+  drug_escape: ["Gefitinib", "Erlotinib", "Afatinib"]
+  drug_template_pdb: 2ITY
+  isoform_structure_pdb: ["2JIT", "4G5P", "5Y9T"]
+
+EGFR_L858R_T790M:
+  gene: EGFR
+  isoform: L858R_T790M
+  disease: NSCLC
+  drug_escape: ["First-gen TKIs", "Second-gen TKIs"]
+  drug_template_pdb: 2ITY
+  isoform_structure_pdb: ["3W2O", "4I21", "5EDP", "5UG8", "6Z4B", "7OXB", "7UKW"]
+
+EGFR_L858R_T790M_C797S:
+  gene: EGFR
+  isoform: L858R_T790M_C797S
+  disease: NSCLC
+  drug_escape: ["Osimertinib", "Other 3rd-gen TKIs"]
+  drug_template_pdb: 4ZAU
+  isoform_structure_pdb: ["6LUB"]
+
+EGFR_Ex19del_T790M_C797S:
+  gene: EGFR
+  isoform: Ex19del_T790M_C797S
+  disease: NSCLC
+  drug_escape: ["Osimertinib"]
+  drug_template_pdb: 4ZAU
+  isoform_structure_pdb: ["6LUB"]
